@@ -68,8 +68,8 @@ def plot_confusion_matrix(cm,
     
 
 
-Airways_df_train = pd.read_csv("C:/Users/dell/Desktop/cmse 830 final/train.csv")
-Airways_df_test = pd.read_csv("C:/Users/dell/Desktop/cmse 830 final/test.csv")
+Airways_df_train = pd.read_csv("train.csv")
+Airways_df_test = pd.read_csv("test.csv")
 
 # remove redundant and nulls
 cols = Airways_df_train.columns
